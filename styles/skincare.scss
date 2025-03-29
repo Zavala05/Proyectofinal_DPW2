@@ -1,0 +1,69 @@
+@import 'mixins';
+@import 'variables';
+
+.container-fluid img{
+    @include ajustarlogo;
+}
+
+.custom-carousel{
+    @include ajustarcarrusel;
+}
+
+.custom-carousel .carousel-item {
+    height: 450px; /* Ajusta este valor según tus necesidades */
+    .custom-carousel .carousel-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+footer{
+    background-color: $navbarcolor;
+    color: white;
+    text-align: center;
+    display: flex;
+    margin-top: 3rem;
+    justify-content: center;
+}
+
+.customnavbar{
+    background-color: $navbarcolor;
+}
+
+
+.navbar-collapse a:hover{
+    background-color: #ffffff;
+    border-radius: 30px;
+    transition: all 0.7s ease;
+    color:$navbarcolor;
+ }
+
+ .navbar-collapse a{
+    border-radius: 30px;
+    transition: all 0.7s ease;
+ }
+
+ .customdd{
+    background-color: $navbarcolor;
+ }
+
+
+ h1{
+    @include titulos;
+ }
+
+ .card{
+    text-align: center;
+ }
+
+ #productosskin{
+    margin-top: 4rem;
+    @include colocsaciontarjetas
+ }
+
+ footer p{
+
+    margin-top: 2%;
+    
+ }

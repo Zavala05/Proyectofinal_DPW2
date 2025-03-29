@@ -1,0 +1,62 @@
+
+
+@mixin ajustarlogo{
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+}
+
+
+@mixin ajustarcarrusel{
+    width: 100vw; 
+    max-width: 100%;
+    height: auto;
+}
+
+@mixin colocacionlineal{
+    text-align: center;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly; 
+    flex-wrap: wrap;
+}
+
+
+@mixin titulos{
+    text-align: center;
+margin-top: 50px;
+background-color: $navbarcolor;
+margin: 15px;
+font-family: serif;
+
+}
+
+
+@mixin zoom{
+    width: 100%;
+    transition: transform 0.5s ease;
+    transform: scale(1.1);
+}
+
+@mixin dismunir{
+    height: 310px;
+    width: 200px;
+    transition: all 0.8s ease;
+}
+
+@mixin aumentar{
+    height: 480px;
+    width: 200px;
+    transition: all 0.8s ease;
+    background-color: rgba(226, 170, 235, 0.315);
+}
+
+@mixin colocsaciontarjetas{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4.0rem;
+    justify-content: center;
+    text-align: center;
+}
+
+
