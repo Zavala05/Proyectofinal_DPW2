@@ -44,6 +44,14 @@ footer{
     @include zoom;
 }
 
+#productosd .customcard{
+    margin-top: 2rem;
+}
+
+
+#segunda_fila .customcard{
+    margin-top: 2rem;
+}
 .customnavbar{
     background-color: $navbarcolor;
 }
@@ -53,6 +61,7 @@ footer{
     gap: 2rem;
     display: flex;
     text-align: center;
+    
     
 }
 
