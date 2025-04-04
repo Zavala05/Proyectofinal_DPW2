@@ -40,6 +40,11 @@ footer{
 
 #productosd .customcard:hover img{
     @include zoom;
+    
+}
+
+#productosd .customcard img{
+    transition: all 1.5s ease;
 }
 
 #productosd .customcard{
